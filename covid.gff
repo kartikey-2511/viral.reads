@@ -1,0 +1,145 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_002645.1 1 27317
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11137
+NC_002645.1	RefSeq	region	1	27317	.	+	.	ID=id0;Dbxref=taxon:11137;clone=inf-1;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=229E
+NC_002645.1	RefSeq	gene	293	20568	.	+	.	ID=gene0;Dbxref=GeneID:918764;Name=HCoV229Egp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCoV229Egp1
+NC_002645.1	RefSeq	CDS	293	12520	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_073549.1,GeneID:918764;Name=NP_073549.1;gbkey=CDS;product=replicase polyprotein 1ab;protein_id=NP_073549.1
+NC_002645.1	RefSeq	CDS	12520	20568	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_073549.1,GeneID:918764;Name=NP_073549.1;gbkey=CDS;product=replicase polyprotein 1ab;protein_id=NP_073549.1
+NC_002645.1	RefSeq	CDS	293	12550	.	+	0	ID=cds1;Parent=gene0;Dbxref=Genbank:NP_073550.1,GeneID:918764;Name=NP_073550.1;gbkey=CDS;product=replicase polyprotein 1a;protein_id=NP_073550.1
+NC_002645.1	RefSeq	gene	20570	24091	.	+	.	ID=gene1;Dbxref=GeneID:918758;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;locus_tag=HCoV229Egp2
+NC_002645.1	RefSeq	CDS	20570	24091	.	+	0	ID=cds2;Parent=gene1;Dbxref=Genbank:NP_073551.1,GeneID:918758;Name=NP_073551.1;gbkey=CDS;gene=S;product=surface glycoprotein;protein_id=NP_073551.1
+NC_002645.1	RefSeq	gene	24091	24492	.	+	.	ID=gene2;Dbxref=GeneID:918759;Name=4a;gbkey=Gene;gene=4a;gene_biotype=protein_coding;locus_tag=HCoV229Egp3
+NC_002645.1	RefSeq	CDS	24091	24492	.	+	0	ID=cds3;Parent=gene2;Dbxref=Genbank:NP_073552.1,GeneID:918759;Name=NP_073552.1;gbkey=CDS;gene=4a;product=4a protein;protein_id=NP_073552.1
+NC_002645.1	RefSeq	gene	24482	24748	.	+	.	ID=gene3;Dbxref=GeneID:918760;Name=4b;gbkey=Gene;gene=4b;gene_biotype=protein_coding;locus_tag=HCoV229Egp4
+NC_002645.1	RefSeq	CDS	24482	24748	.	+	0	ID=cds4;Parent=gene3;Dbxref=Genbank:NP_073553.1,GeneID:918760;Name=NP_073553.1;gbkey=CDS;gene=4b;product=4b protein;protein_id=NP_073553.1
+NC_002645.1	RefSeq	gene	24750	24983	.	+	.	ID=gene4;Dbxref=GeneID:918761;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding;locus_tag=HCoV229Egp5
+NC_002645.1	RefSeq	CDS	24750	24983	.	+	0	ID=cds5;Parent=gene4;Dbxref=Genbank:NP_073554.1,GeneID:918761;Name=NP_073554.1;Note=structural protein%3B E protein;gbkey=CDS;gene=E;product=envelope protein;protein_id=NP_073554.1
+NC_002645.1	RefSeq	gene	24995	25672	.	+	.	ID=gene5;Dbxref=GeneID:918762;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding;locus_tag=HCoV229Egp6
+NC_002645.1	RefSeq	CDS	24995	25672	.	+	0	ID=cds6;Parent=gene5;Dbxref=Genbank:NP_073555.1,GeneID:918762;Name=NP_073555.1;gbkey=CDS;gene=M;product=membrane protein;protein_id=NP_073555.1
+NC_002645.1	RefSeq	gene	25686	26855	.	+	.	ID=gene6;Dbxref=GeneID:918763;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=HCoV229Egp7
+NC_002645.1	RefSeq	CDS	25686	26855	.	+	0	ID=cds7;Parent=gene6;Dbxref=Genbank:NP_073556.1,GeneID:918763;Name=NP_073556.1;gbkey=CDS;gene=N;product=nucleocapsid protein;protein_id=NP_073556.1
+###
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_004718.3 1 29751
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=227859
+NC_004718.3	RefSeq	region	1	29751	.	+	.	ID=id0;Dbxref=taxon:227859;country=Canada: Toronto;gbkey=Src;genome=genomic;isolate=Tor2;isolation-source=patient #2 with severe acute respiratory syndrome (SARS);mol_type=genomic RNA
+NC_004718.3	RefSeq	five_prime_UTR	1	264	.	+	.	ID=id1;gbkey=5'UTR
+NC_004718.3	RefSeq	sequence_feature	67	72	.	+	.	ID=id2;Note=transcription regulatory sequence leader TRS;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	265	21485	.	+	.	ID=gene0;Dbxref=GeneID:1489680;Name=orf1ab;gbkey=Gene;gene=orf1ab;gene_biotype=protein_coding;locus_tag=sars1
+NC_004718.3	RefSeq	CDS	265	13398	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_828849.2,GeneID:1489680;Name=NP_828849.2;Note=-1 frameshift;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=orf1ab polyprotein (pp1ab);protein_id=NP_828849.2
+NC_004718.3	RefSeq	CDS	13398	21485	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_828849.2,GeneID:1489680;Name=NP_828849.2;Note=-1 frameshift;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=orf1ab polyprotein (pp1ab);protein_id=NP_828849.2
+NC_004718.3	RefSeq	CDS	265	13413	.	+	0	ID=cds1;Parent=gene0;Dbxref=Genbank:NP_828850.1,GeneID:1489680;Name=NP_828850.1;gbkey=CDS;gene=orf1ab;product=orf1a polyprotein (pp1a);protein_id=NP_828850.1
+NC_004718.3	RefSeq	biological_region	13392	13472	.	+	.	ID=id3;Dbxref=GeneID:1489680;gbkey=Region;gene=orf1ab
+NC_004718.3	RefSeq	sequence_feature	21486	21491	.	+	.	ID=id4;Note=transcription regulatory sequence for mRNA2;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	21492	25259	.	+	.	ID=gene1;Dbxref=GeneID:1489668;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;gene_synonym=E2;locus_tag=sars2
+NC_004718.3	RefSeq	CDS	21492	25259	.	+	0	ID=cds2;Parent=gene1;Dbxref=Genbank:NP_828851.1,GeneID:1489668;Name=NP_828851.1;Note=As established by Krokhin et al. (2003)%2C the glycosylated spike protein (as well as the nucleocapsid protein) can be detected in infected cell culture supernatants with antisera from SARS patients.;gbkey=CDS;gene=S;product=E2 glycoprotein precursor;protein_id=NP_828851.1
+NC_004718.3	RefSeq	sequence_feature	25260	25265	.	+	.	ID=id5;Note=transcription regulatory sequence for mRNA3;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	25268	26092	.	+	.	ID=gene2;Dbxref=GeneID:1489669;Name=sars3a;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars3a
+NC_004718.3	RefSeq	CDS	25268	26092	.	+	0	ID=cds3;Parent=gene2;Dbxref=Genbank:NP_828852.2,GeneID:1489669;Name=NP_828852.2;gbkey=CDS;product=hypothetical protein sars3a;protein_id=NP_828852.2
+NC_004718.3	RefSeq	gene	25689	26153	.	+	.	ID=gene3;Dbxref=GeneID:1489670;Name=sars3b;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars3b
+NC_004718.3	RefSeq	CDS	25689	26153	.	+	0	ID=cds4;Parent=gene3;Dbxref=Genbank:NP_828853.1,GeneID:1489670;Name=NP_828853.1;gbkey=CDS;product=hypothetical protein sars3b;protein_id=NP_828853.1
+NC_004718.3	RefSeq	sequence_feature	26109	26114	.	+	.	ID=id6;Dbxref=GeneID:1489670;Note=transcription regulatory sequence for mRNA4;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	26117	26347	.	+	.	ID=gene4;Dbxref=GeneID:1489671;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding;locus_tag=sars4
+NC_004718.3	RefSeq	CDS	26117	26347	.	+	0	ID=cds5;Parent=gene4;Dbxref=Genbank:NP_828854.1,GeneID:1489671;Name=NP_828854.1;Note=E. coli expression reported by Shen et al. (2003);gbkey=CDS;gene=E;product=protein E;protein_id=NP_828854.1
+NC_004718.3	RefSeq	sequence_feature	26348	26353	.	+	.	ID=id7;Note=transcription regulatory sequence for mRNA5;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	26398	27063	.	+	.	ID=gene5;Dbxref=GeneID:1489672;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding;locus_tag=sars5
+NC_004718.3	RefSeq	CDS	26398	27063	.	+	0	ID=cds6;Parent=gene5;Dbxref=Genbank:NP_828855.1,GeneID:1489672;Name=NP_828855.1;Note=E. coli expression reported by Zhang et al. (2003);gbkey=CDS;gene=M;product=matrix protein;protein_id=NP_828855.1
+NC_004718.3	RefSeq	gene	26913	27265	.	+	.	ID=gene6;Dbxref=GeneID:1489673;Name=sars6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars6
+NC_004718.3	RefSeq	CDS	27074	27265	.	+	0	ID=cds7;Parent=gene6;Dbxref=Genbank:NP_828856.1,GeneID:1489673;Name=NP_828856.1;gbkey=CDS;product=hypothetical protein sars6;protein_id=NP_828856.1
+NC_004718.3	RefSeq	sequence_feature	26913	26918	.	+	.	ID=id8;Dbxref=GeneID:1489673;Note=transcription regulatory sequence for mRNA6;gbkey=misc_feature
+NC_004718.3	RefSeq	sequence_feature	27267	27272	.	+	.	ID=id9;Note=transcription regulatory sequence for mRNA7;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	27273	27641	.	+	.	ID=gene7;Dbxref=GeneID:1489674;Name=sars7a;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars7a
+NC_004718.3	RefSeq	CDS	27273	27641	.	+	0	ID=cds8;Parent=gene7;Dbxref=Genbank:NP_828857.1,GeneID:1489674;Name=NP_828857.1;gbkey=CDS;product=hypothetical protein sars7a;protein_id=NP_828857.1
+NC_004718.3	RefSeq	gene	27638	27772	.	+	.	ID=gene8;Dbxref=GeneID:1489675;Name=sars7b;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars7b
+NC_004718.3	RefSeq	CDS	27638	27772	.	+	0	ID=cds9;Parent=gene8;Dbxref=Genbank:NP_849175.1,GeneID:1489675;Name=NP_849175.1;gbkey=CDS;product=hypothetical protein sars7b;protein_id=NP_849175.1
+NC_004718.3	RefSeq	sequence_feature	27773	27778	.	+	.	ID=id10;Note=transcription regulatory sequence for mRNA8;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	27779	27898	.	+	.	ID=gene9;Dbxref=GeneID:1489676;Name=sars8a;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars8a
+NC_004718.3	RefSeq	CDS	27779	27898	.	+	0	ID=cds10;Parent=gene9;Dbxref=Genbank:NP_849176.1,GeneID:1489676;Name=NP_849176.1;gbkey=CDS;product=hypothetical protein sars8a;protein_id=NP_849176.1
+NC_004718.3	RefSeq	gene	27864	28118	.	+	.	ID=gene10;Dbxref=GeneID:1489677;Name=sars8b;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars8b
+NC_004718.3	RefSeq	CDS	27864	28118	.	+	0	ID=cds11;Parent=gene10;Dbxref=Genbank:NP_849177.1,GeneID:1489677;Name=NP_849177.1;gbkey=CDS;product=hypothetical protein sars8b;protein_id=NP_849177.1
+NC_004718.3	RefSeq	sequence_feature	28106	28111	.	+	.	ID=id11;Dbxref=GeneID:1489677;Note=transcription regulatory sequence for mRNA9;gbkey=misc_feature
+NC_004718.3	RefSeq	gene	28120	29388	.	+	.	ID=gene11;Dbxref=GeneID:1489678;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=sars9a
+NC_004718.3	RefSeq	CDS	28120	29388	.	+	0	ID=cds12;Parent=gene11;Dbxref=Genbank:NP_828858.1,GeneID:1489678;Name=NP_828858.1;Note=As established by Krokhin et al. (2003)%2C the N-terminal methionine is removed%2C all other methionines are oxidized%2C and the resulting N-terminal serine is acetylated;experiment=inhibits the activity of cyclin-CDK complex and blocks S phase progression in mammalian cells;gbkey=CDS;gene=N;product=nucleocapsid protein;protein_id=NP_828858.1
+NC_004718.3	RefSeq	gene	28130	28426	.	+	.	ID=gene12;Dbxref=GeneID:1489679;Name=sars9b;gbkey=Gene;gene_biotype=protein_coding;locus_tag=sars9b
+NC_004718.3	RefSeq	CDS	28130	28426	.	+	0	ID=cds13;Parent=gene12;Dbxref=Genbank:NP_828859.1,GeneID:1489679;Name=NP_828859.1;gbkey=CDS;product=hypothetical protein sars9b;protein_id=NP_828859.1
+NC_004718.3	RefSeq	three_prime_UTR	29389	29751	.	+	.	ID=id12;gbkey=3'UTR
+###
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_005831.2 1 27553
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=277944
+NC_005831.2	RefSeq	region	1	27553	.	+	.	ID=id0;Dbxref=taxon:277944;gb-acronym=HCoV-NL63;gbkey=Src;genome=genomic;mol_type=genomic RNA;strain=Amsterdam I
+NC_005831.2	RefSeq	five_prime_UTR	1	286	.	+	.	ID=id1;gbkey=5'UTR
+NC_005831.2	RefSeq	gene	287	20475	.	+	.	ID=gene0;Dbxref=GeneID:2943501;Name=HCNV63gp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp1
+NC_005831.2	RefSeq	CDS	287	12439	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_003766.2,GeneID:2943501;Name=YP_003766.2;Note=translated via -1 ribosomal frameshift;exception=ribosomal slippage;gbkey=CDS;product=replicase polyprotein 1ab;protein_id=YP_003766.2
+NC_005831.2	RefSeq	CDS	12439	20475	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_003766.2,GeneID:2943501;Name=YP_003766.2;Note=translated via -1 ribosomal frameshift;exception=ribosomal slippage;gbkey=CDS;product=replicase polyprotein 1ab;protein_id=YP_003766.2
+NC_005831.2	RefSeq	gene	20472	24542	.	+	.	ID=gene1;Dbxref=GeneID:2943499;Name=HCNV63gp2;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp2
+NC_005831.2	RefSeq	CDS	20472	24542	.	+	0	ID=cds1;Parent=gene1;Dbxref=Genbank:YP_003767.1,GeneID:2943499;Name=YP_003767.1;gbkey=CDS;product=spike protein;protein_id=YP_003767.1
+NC_005831.2	RefSeq	gene	24542	25219	.	+	.	ID=gene2;Dbxref=GeneID:2943500;Name=HCNV63gp3;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp3
+NC_005831.2	RefSeq	CDS	24542	25219	.	+	0	ID=cds2;Parent=gene2;Dbxref=Genbank:YP_003768.1,GeneID:2943500;Name=YP_003768.1;gbkey=CDS;product=protein 3;protein_id=YP_003768.1
+NC_005831.2	RefSeq	gene	25200	25433	.	+	.	ID=gene3;Dbxref=GeneID:2943502;Name=HCNV63gp4;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp4
+NC_005831.2	RefSeq	CDS	25200	25433	.	+	0	ID=cds3;Parent=gene3;Dbxref=Genbank:YP_003769.1,GeneID:2943502;Name=YP_003769.1;Note=small membrane protein;gbkey=CDS;product=envelope protein;protein_id=YP_003769.1
+NC_005831.2	RefSeq	gene	25442	26122	.	+	.	ID=gene4;Dbxref=GeneID:2943503;Name=HCNV63gp5;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp5
+NC_005831.2	RefSeq	CDS	25442	26122	.	+	0	ID=cds4;Parent=gene4;Dbxref=Genbank:YP_003770.1,GeneID:2943503;Name=YP_003770.1;gbkey=CDS;product=membrane protein;protein_id=YP_003770.1
+NC_005831.2	RefSeq	gene	26133	27266	.	+	.	ID=gene5;Dbxref=GeneID:2943504;Name=HCNV63gp6;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HCNV63gp6
+NC_005831.2	RefSeq	CDS	26133	27266	.	+	0	ID=cds5;Parent=gene5;Dbxref=Genbank:YP_003771.1,GeneID:2943504;Name=YP_003771.1;gbkey=CDS;product=nucleocapsid protein;protein_id=YP_003771.1
+NC_005831.2	RefSeq	three_prime_UTR	27267	27553	.	+	.	ID=id2;gbkey=3'UTR
+###
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_006577.2 1 29926
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=290028
+NC_006577.2	RefSeq	region	1	29926	.	+	.	ID=id0;Dbxref=taxon:290028;gb-acronym=HCoV-HKU1;gbkey=Src;genome=genomic;genotype=A;isolate=HKU1;isolation-source=patient with pneumonia;mol_type=genomic RNA;nat-host=Homo sapiens
+NC_006577.2	RefSeq	gene	206	21753	.	+	.	ID=gene0;Dbxref=GeneID:3200429;Name=orf1ab;gbkey=Gene;gene=orf1ab;gene_biotype=protein_coding;locus_tag=HCHV1gp1
+NC_006577.2	RefSeq	CDS	206	13600	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_173236.1,GeneID:3200429;Name=YP_173236.1;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=orf1ab polyprotein;protein_id=YP_173236.1
+NC_006577.2	RefSeq	CDS	13600	21753	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_173236.1,GeneID:3200429;Name=YP_173236.1;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=orf1ab polyprotein;protein_id=YP_173236.1
+NC_006577.2	RefSeq	gene	21773	22933	.	+	.	ID=gene1;Dbxref=GeneID:3200425;Name=HE;gbkey=Gene;gene=HE;gene_biotype=protein_coding;locus_tag=HCHV1gp2
+NC_006577.2	RefSeq	CDS	21773	22933	.	+	0	ID=cds1;Parent=gene1;Dbxref=Genbank:YP_173237.1,GeneID:3200425;Name=YP_173237.1;gbkey=CDS;gene=HE;product=hemagglutinin-esterase glycoprotein;protein_id=YP_173237.1
+NC_006577.2	RefSeq	gene	22942	27012	.	+	.	ID=gene2;Dbxref=GeneID:3200426;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;locus_tag=HCHV1gp3
+NC_006577.2	RefSeq	CDS	22942	27012	.	+	0	ID=cds2;Parent=gene2;Dbxref=Genbank:YP_173238.1,GeneID:3200426;Name=YP_173238.1;gbkey=CDS;gene=S;product=spike glycoprotein;protein_id=YP_173238.1
+NC_006577.2	RefSeq	gene	27051	27380	.	+	.	ID=gene3;Dbxref=GeneID:3200427;Name=orf4;gbkey=Gene;gene=orf4;gene_biotype=protein_coding;locus_tag=HCHV1gp4
+NC_006577.2	RefSeq	CDS	27051	27380	.	+	0	ID=cds3;Parent=gene3;Dbxref=Genbank:YP_173239.1,GeneID:3200427;Name=YP_173239.1;gbkey=CDS;gene=orf4;product=non-structural protein;protein_id=YP_173239.1
+NC_006577.2	RefSeq	gene	27373	27621	.	+	.	ID=gene4;Dbxref=GeneID:3200430;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding;locus_tag=HCHV1gp5
+NC_006577.2	RefSeq	CDS	27373	27621	.	+	0	ID=cds4;Parent=gene4;Dbxref=Genbank:YP_173240.1,GeneID:3200430;Name=YP_173240.1;gbkey=CDS;gene=E;product=small membrane protein;protein_id=YP_173240.1
+NC_006577.2	RefSeq	gene	27633	28304	.	+	.	ID=gene5;Dbxref=GeneID:3200428;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding;locus_tag=HCHV1gp6
+NC_006577.2	RefSeq	CDS	27633	28304	.	+	0	ID=cds5;Parent=gene5;Dbxref=Genbank:YP_173241.1,GeneID:3200428;Name=YP_173241.1;gbkey=CDS;gene=M;product=membrane glycoprotein;protein_id=YP_173241.1
+NC_006577.2	RefSeq	gene	28320	29645	.	+	.	ID=gene6;Dbxref=GeneID:3200423;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=HCHV1gp7
+NC_006577.2	RefSeq	CDS	28320	29645	.	+	0	ID=cds6;Parent=gene6;Dbxref=Genbank:YP_173242.1,GeneID:3200423;Name=YP_173242.1;gbkey=CDS;gene=N;product=nucleocapsid phosphoprotein;protein_id=YP_173242.1
+NC_006577.2	RefSeq	gene	28342	28959	.	+	.	ID=gene7;Dbxref=GeneID:3200424;Name=N2;gbkey=Gene;gene=N2;gene_biotype=protein_coding;locus_tag=HCHV1gp8
+NC_006577.2	RefSeq	CDS	28342	28959	.	+	0	ID=cds7;Parent=gene7;Dbxref=Genbank:YP_173243.1,GeneID:3200424;Name=YP_173243.1;gbkey=CDS;gene=N2;product=nucleocapsid phosphoprotein 2;protein_id=YP_173243.1
+###
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_019843.3 1 30119
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1335626
+NC_019843.3	RefSeq	region	1	30119	.	+	.	ID=id0;Dbxref=taxon:1335626;collection-date=13-Jun-2012;gb-acronym=MERS-CoV;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Middle East respiratory syndrome coronavirus;strain=HCoV-EMC
+NC_019843.3	RefSeq	gene	279	21514	.	+	.	ID=gene0;Dbxref=GeneID:14254602;Name=orf1ab;gbkey=Gene;gene=orf1ab;gene_biotype=protein_coding;locus_tag=G128_gp01
+NC_019843.3	RefSeq	CDS	279	13433	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_009047202.1,GeneID:14254602;Name=YP_009047202.1;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=1AB polyprotein;protein_id=YP_009047202.1
+NC_019843.3	RefSeq	CDS	13433	21514	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:YP_009047202.1,GeneID:14254602;Name=YP_009047202.1;exception=ribosomal slippage;gbkey=CDS;gene=orf1ab;product=1AB polyprotein;protein_id=YP_009047202.1
+NC_019843.3	RefSeq	CDS	279	13454	.	+	0	ID=cds1;Parent=gene0;Dbxref=Genbank:YP_009047203.1,GeneID:14254602;Name=YP_009047203.1;gbkey=CDS;gene=orf1ab;product=1A polyprotein;protein_id=YP_009047203.1
+NC_019843.3	RefSeq	gene	21456	25517	.	+	.	ID=gene1;Dbxref=GeneID:14254594;Name=S;gbkey=Gene;gene=S;gene_biotype=protein_coding;locus_tag=G128_gp02
+NC_019843.3	RefSeq	CDS	21456	25517	.	+	0	ID=cds2;Parent=gene1;Dbxref=Genbank:YP_009047204.1,GeneID:14254594;Name=YP_009047204.1;gbkey=CDS;gene=S;product=spike glycoprotein;protein_id=YP_009047204.1
+NC_019843.3	RefSeq	gene	25532	25843	.	+	.	ID=gene2;Dbxref=GeneID:14254595;Name=orf3;gbkey=Gene;gene=orf3;gene_biotype=protein_coding;locus_tag=G128_gp03
+NC_019843.3	RefSeq	CDS	25532	25843	.	+	0	ID=cds3;Parent=gene2;Dbxref=Genbank:YP_009047205.1,GeneID:14254595;Name=YP_009047205.1;gbkey=CDS;gene=orf3;product=NS3 protein;protein_id=YP_009047205.1
+NC_019843.3	RefSeq	gene	25852	26181	.	+	.	ID=gene3;Dbxref=GeneID:14254596;Name=orf4a;gbkey=Gene;gene=orf4a;gene_biotype=protein_coding;locus_tag=G128_gp04
+NC_019843.3	RefSeq	CDS	25852	26181	.	+	0	ID=cds4;Parent=gene3;Dbxref=Genbank:YP_009047206.1,GeneID:14254596;Name=YP_009047206.1;gbkey=CDS;gene=orf4a;product=NS4A protein;protein_id=YP_009047206.1
+NC_019843.3	RefSeq	gene	26093	26833	.	+	.	ID=gene4;Dbxref=GeneID:14254597;Name=orf4b;gbkey=Gene;gene=orf4b;gene_biotype=protein_coding;locus_tag=G128_gp05
+NC_019843.3	RefSeq	CDS	26093	26833	.	+	0	ID=cds5;Parent=gene4;Dbxref=Genbank:YP_009047207.1,GeneID:14254597;Name=YP_009047207.1;gbkey=CDS;gene=orf4b;product=NS4B protein;protein_id=YP_009047207.1
+NC_019843.3	RefSeq	gene	26840	27514	.	+	.	ID=gene5;Dbxref=GeneID:14254598;Name=orf5;gbkey=Gene;gene=orf5;gene_biotype=protein_coding;locus_tag=G128_gp06
+NC_019843.3	RefSeq	CDS	26840	27514	.	+	0	ID=cds6;Parent=gene5;Dbxref=Genbank:YP_009047208.1,GeneID:14254598;Name=YP_009047208.1;gbkey=CDS;gene=orf5;product=NS5 protein;protein_id=YP_009047208.1
+NC_019843.3	RefSeq	gene	27590	27838	.	+	.	ID=gene6;Dbxref=GeneID:14254599;Name=E;gbkey=Gene;gene=E;gene_biotype=protein_coding;locus_tag=G128_gp07
+NC_019843.3	RefSeq	CDS	27590	27838	.	+	0	ID=cds7;Parent=gene6;Dbxref=Genbank:YP_009047209.1,GeneID:14254599;Name=YP_009047209.1;gbkey=CDS;gene=E;product=envelope protein;protein_id=YP_009047209.1
+NC_019843.3	RefSeq	gene	27853	28512	.	+	.	ID=gene7;Dbxref=GeneID:14254600;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding;locus_tag=G128_gp08
+NC_019843.3	RefSeq	CDS	27853	28512	.	+	0	ID=cds8;Parent=gene7;Dbxref=Genbank:YP_009047210.1,GeneID:14254600;Name=YP_009047210.1;gbkey=CDS;gene=M;product=membrane protein;protein_id=YP_009047210.1
+NC_019843.3	RefSeq	gene	28566	29807	.	+	.	ID=gene8;Dbxref=GeneID:14254601;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=G128_gp09
+NC_019843.3	RefSeq	CDS	28566	29807	.	+	0	ID=cds9;Parent=gene8;Dbxref=Genbank:YP_009047211.1,GeneID:14254601;Name=YP_009047211.1;gbkey=CDS;gene=N;product=nucleoprotein;protein_id=YP_009047211.1
+NC_019843.3	RefSeq	gene	28762	29100	.	+	.	ID=gene9;Dbxref=GeneID:19910005;Name=orf8b;gbkey=Gene;gene=orf8b;gene_biotype=protein_coding;locus_tag=G128_gp10
+NC_019843.3	RefSeq	CDS	28762	29100	.	+	0	ID=cds10;Parent=gene9;Dbxref=Genbank:YP_009047212.1,GeneID:19910005;Name=YP_009047212.1;gbkey=CDS;gene=orf8b;product=ORF8b protein;protein_id=YP_009047212.1
+###
